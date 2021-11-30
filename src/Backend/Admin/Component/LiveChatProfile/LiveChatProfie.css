@@ -1,0 +1,32 @@
+.liveChatCard{
+    background-color: #2D2D2D;
+    border: 2px solid yellow;
+    border-radius: 15px;
+}
+.down-content{
+  
+    width: 22%;
+    border-radius:10px;
+    background-color: #252525;
+}
+.live-person{
+    cursor: pointer;
+}
+.pricing-btn{
+    margin-top: 100px !important;
+}
+@media only screen and (max-width: 768px) {
+    .down-content{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+  }
+
+  .down-content-btn{
+    background-color: #2D2D2D;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .modify-btn-2{
+      background-color: #4F4F4F;
+  }

@@ -1,0 +1,92 @@
+.table tbody tr:hover td, .table tbody tr:hover th {
+    background-color: #151515;
+}
+
+.table-info{
+    border: 1px solid yellow;
+    background-color: #2D2D2D;
+    border-radius: 18px;
+    
+}
+.call-btn{
+    background: #656565;
+    color: white;
+    border-radius: 15px;
+}
+.call-btn:hover{
+    color: white;
+    background: #494848;
+    
+}
+.call-btn:focus{
+    background-color: #FFD910 !important;
+    color: white;
+}
+
+/* right side style */
+.right-card-live{
+    width: 90%;
+    background: #2D2D2D;
+}
+.time-table{
+    background: #252525;
+    width: 70%;
+    border-radius: 25px;
+}
+.time-table2{
+    background: #252525;
+    width: 90%;
+    border-radius: 25px;
+}
+.time-table3{
+    background: #252525;
+    width: 65%;
+    border-radius: 25px;
+}
+@media only screen and (max-width: 600px) {
+    .time-table{
+     
+        width: 100%;
+        font-size: 12px;
+    }
+  }
+.fa-clock,.fa-dollar-sign{
+  color: #D56D57 !important;
+
+}
+
+.fa-calendar-week{
+    color: #D56D57 !important;
+  }
+/* .time-table .other{
+    background: rgb(97, 36, 36) !important;
+    width: 80%;
+} */
+.date-font{
+    font-weight: bold;
+}
+/* .enjoy-video{
+    border-radius: 5px;
+} */
+.content1{
+    position: relative;
+}
+.content1 .w {
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    opacity: 0.8;
+    background-color: #555;
+    color: white;
+    
+  }
+  .right-live-card-bg{
+   background-color: black;
+  }
+  .icons-videos{
+      border-radius: 15px;
+  }
+  .btn-rounded{
+      border-radius: 50%;
+  }

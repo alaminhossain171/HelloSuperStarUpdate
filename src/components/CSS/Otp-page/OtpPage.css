@@ -1,0 +1,142 @@
+.ino{
+    color: #ffc107;
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+.otp {
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+.otp p{
+    color: white;
+    margin-top: 30px;
+    font-size: 14px;
+}
+.otp b{
+    color: white;
+    font-size: 14px;
+    color:#ffc107;
+}
+.otp ul{
+    display: flex;
+    text-align: center;
+    margin: 2px;
+}
+.otp ul li{
+    list-style: none;
+    margin: 4px;
+    text-align: center;
+}
+
+.otpS{
+    text-align: center;
+    display: flex; 
+    margin-top: 10px;
+}
+
+.otpS input{
+    width: 35px;
+    margin: 5px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid #ffc107;
+    background-color: #343434;
+    color:#ffc107;
+    font-size: 20px;
+    padding-left: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+.btnO{
+    display: flex;
+    margin-top: 10px;
+    
+}
+.btnS button{
+    width: 80px;
+    height: 25px;
+    margin-top: 10px;
+    border: 1px solid #ffc107;
+    background-color: #ffc107;
+    color: black;
+    font-size: 14px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+.btnA  a{
+    padding-top: 20px;
+    color:#ffc107;
+
+    padding: 5px;
+    font-size: 12px;
+    margin-top: 100px;
+}
+.log-otp {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.log-otp a {
+    text-decoration: none;
+    margin-left: 5px;
+    color:  #ffc107;
+}
+.log-otp a:hover{
+    color: white;
+}
+
+@media only screen and (max-width:768px) {
+  .otp-body{
+      width: 150% !important;
+  }
+
+  }
+
+@media only screen and (max-width:978px) {
+    .w-100{
+        width: 100%;
+    }
+    .otpS {
+        margin-left: 0px;
+    }
+    .text-center{
+        width: 100%;
+    }
+    .btnA  a{
+        margin-bottom: 15px;
+    }
+
+  }
+
+  .resend-btn{
+    width: 80px;
+    height: 25px;
+    margin-top: 3px;
+    margin-left: 5px;
+    border: 1px solid #ffc107;
+    background-color: #ffc107;
+    color: black;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+/* 
+  @media only screen and (min-width: 1200px) {
+      .otpS{
+        margin-left: 50px;
+      }
+  } */

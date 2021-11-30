@@ -1,0 +1,55 @@
+.fl2{
+    margin-top:-4px;
+}
+.Follow-nav{
+    margin-left: 50px;
+}
+
+.Follow-nav-item-btn{
+    background-color: #343434;
+    margin-left: -40px;
+    display: inline;
+    color: #F0E25E;
+    height: 35px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Follow-nav{
+        margin-left: 20px;
+        /* width:200%; */
+        
+    }
+    .OwlCarousel{
+        margin-left:10px;
+    }
+    .Follow-nav-item-btn{
+        width:0 auto;
+        
+    }
+  }
+
+  @media screen and (min-device-width: 770px) and (max-device-width: 1100px) { 
+    
+    
+    .Follow-nav{
+        margin-left: 30px;
+        width:140%;
+        
+    }
+    .OwlCarousel{
+        margin-left:10px;
+    }
+    .Follow-nav-item-btn{
+        width:0 auto;
+        
+    }
+    
+   
+    
+}
+
+  

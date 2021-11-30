@@ -1,0 +1,20 @@
+.leftSlot-md{
+    float: left;
+    color: white ;
+}
+
+.RightSlotBtn{
+    float: right;
+    color: brown;
+    font-size: 20px;
+    background: none;
+    border: none;
+}
+
+.Modal-js-body{
+    background-color:#2D2D2D;
+}
+
+.con-text-bfo{
+    font-weight: 600;
+}

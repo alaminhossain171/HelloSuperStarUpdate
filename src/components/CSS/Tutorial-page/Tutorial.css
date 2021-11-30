@@ -1,0 +1,88 @@
+.tbg-img{
+    background-image: url('../../../images/bg.jpeg');
+    background-repeat: no-repeat;
+    background-position:top;
+   background-size: cover;
+ }
+ .ino{
+    color: #ffc107;
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+.stIn-bg{
+    background-color: black;
+    border: 1px solid rgb(253, 187, 6);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.d-block{
+    width: 100%;
+    padding: 30px;
+}
+.skip{
+    width: 60px;
+    float: right;
+    margin-top: -20px;
+    margin-right: 40px;
+    height: 20px;
+    text-align: center;
+    font-size: 12px;
+    background-color: rgb(240, 224, 11);
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    z-index: -1px;
+}
+
+/*   
+  .CarouselHead {
+    width: 60% ;
+    background-color: black;
+    margin: 5px;
+    text-align: center;
+    margin-left: 256px;
+    background-origin: padding-box;
+    border: 1px solid rgb(236, 178, 17);
+  }
+  .CarouselT1{
+    border-radius: 5px;
+    opacity: 1;
+    padding: 65px;
+    width: 100%;
+    
+  }
+  .Carousel{
+    margin-top: 50px;
+  }
+  .CarouselT1 img{
+    width: 100%;
+    
+  }
+  .btnCar {
+    background-color:#f1c121;
+    width: 80px;
+    float: right;
+    
+  }
+  
+  
+  
+  @media screen and (max-width: 900px) {
+    .CarouselBg{
+      background-size: cover;
+    }
+    .CarouselT1{
+      width: 100% !important;
+      margin-left: 0px !important;
+    }
+  }
+  
+  
+   */

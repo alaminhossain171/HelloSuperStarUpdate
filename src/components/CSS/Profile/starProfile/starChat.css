@@ -1,0 +1,76 @@
+.star-card-chat-demo-video {
+  cursor: pointer;
+  /* width: 95%; */
+  height: 200px;
+  border-radius: 10px;
+}
+
+.star-card-chat-demo-video:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out 0.1s;
+}
+
+.whole-m-p {
+  margin: 20px;
+  padding: 20px;
+}
+
+.vb {
+  border-bottom: 3px solid #1f1f1f;
+  /* height: 80px; */
+}
+
+.starChat-heading {
+  color: #f0e25e;
+}
+
+/* .starChat-side-style{
+      display: flex;
+  } */
+
+/* .starChat-child-style{
+      margin: 10px 0;
+  } */
+
+.display-style-starChat {
+  display: flex;
+  list-style: none;
+}
+
+.input-overlay {
+  background-color: #6e6e6e;
+  border: 1px solid chocolate;
+}
+
+.btn-gold {
+  background-color: #ffad00;
+  width: 50%;
+}
+
+/* .payment-heading-border{
+    margin: 10px;
+    padding: 10px;
+  } */
+
+.singleFrame-style {
+  width: 350px;
+}
+
+.image-middle {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f0e25e;
+}
+
+.payment-img {
+  background-color: white;
+  object-fit: contain;
+  height: 150px;
+}

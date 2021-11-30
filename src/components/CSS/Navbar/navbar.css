@@ -1,0 +1,94 @@
+.custom-container{
+    width: 88%;
+}
+
+@media only screen and (max-width: 768px) {
+    .custom-container{
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 1400px) {
+    .custom-container{
+        width: 90%;
+    }
+  }
+  
+
+@media only screen and (width: 1100px) {
+    .custom-container{
+        width: 100%;
+    }
+  }
+
+.navbar-bg{
+    background-color: #2C2C2C;
+
+}
+.circle-icon {
+    background: #FFFFFF;
+    padding: 10px;
+    border-radius: 50%;
+    color: #2C2C2C;
+
+}
+@media only screen and (max-width: 600px) {
+   .form-width-change{
+       width: 45%;
+   }
+
+  }
+
+  
+.circle-icon:hover{
+    color: #FFCA2C;
+}
+.account-create{
+    height: 38px;
+    border-radius: 50%;
+}
+
+/* .right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+} */
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color:black;
+    padding: 2px;
+    margin-left: 8px;
+
+}
+.has-search ::placeholder{
+    color: black !important;
+    font-size:15px !important;
+}
+.search-design{
+    border-radius: 25px;
+   border: 3px solid #FFCA2C;
+}
+.language-select{
+    margin-left: 10px;
+    background-color: #FFCA2C;
+    color: white;
+    padding: 3px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.active-link{
+    color: #FFCA2C;
+}

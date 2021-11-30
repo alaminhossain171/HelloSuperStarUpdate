@@ -1,0 +1,35 @@
+.star-cover{
+    position: relative;
+   
+}
+
+.star-profile-pic{
+    cursor: pointer;
+  position: absolute;
+    top: 80%;
+}
+.profile-star{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.next-div{
+    margin-top: 150px !important;
+}
+.line-div{
+    height: 2px;
+    width: 100%;
+    background-color: #343434;
+}
+.links{
+    text-decoration: none;
+  
+}
+@media only screen and (max-width: 600px) {
+   .star-profile-name{
+       font-size: 20px;
+   }
+   .star-profile-type{
+       font-size: 15px;
+   }
+  }

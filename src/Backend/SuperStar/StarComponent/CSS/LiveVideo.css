@@ -1,0 +1,58 @@
+
+.ad-card{
+    background-color:#2D2D2D;
+  }
+  .ad-card-td{
+    padding: 5px;
+  }
+  .ad-card-img-top{
+    width: 60px;
+  }
+  .ad-card-small{
+    color: gold;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  
+  .ad-card-footer{
+    background-color: #151515;
+    text-align: center;
+    border: none;
+    color: white;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    
+  }
+  
+  
+  
+  .accordion-item-liveVideo-span{
+    color: white;
+    padding-bottom: 5px;
+  }
+  
+  .accordion-item-liveVideo-card{
+    width: 100% !important;
+      height: 0 auto !important;
+      margin: "0 auto";
+  }
+  
+  .live-vi-ad-text{
+    background-color:#2D2D2D !important;
+    color: white;
+  }
+  
+  .live-ad-btn-s{
+    width: 20%;
+    font-size: 17px;
+    padding: 5px;
+    border: none;
+    font-weight: 600;
+    background-color: rgb(255, 217, 0);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }

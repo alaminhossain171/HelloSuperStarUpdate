@@ -1,0 +1,14 @@
+.btn-gold-primary{
+    background-color: #ffad00;
+    width: 50%;
+    padding: 15px;
+    /* margin: 15px; */
+    border-radius: 15px;
+}
+
+.quick-reg-datepicker .MuiInput-underline:before {
+    content: none !important;
+}
+.quick-reg-datepicker .MuiInput-underline:after{
+   content: none !important;
+}

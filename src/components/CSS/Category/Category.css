@@ -1,0 +1,91 @@
+.core-category-btn {
+    font-weight: bolder;
+    width: 200px;
+    height: 75px;
+    font-size: 25px;
+}
+
+.category-contaienr {
+    border: 3px solid yellow;
+    border-radius: 20px;
+}
+
+.cg-done {
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #FFAD00;
+}
+
+.main-container {
+    background-image: url(../../../images/bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.frame {
+    width: 310px;
+    height: 53px;
+}
+.frame2 {
+    width: 80%;
+    height: 53px;
+}
+
+.center-frame {
+    position: relative;
+    text-align: center;
+}
+
+.category-title {
+    position: absolute;
+    text-align: center;
+    color: #F0E25E;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+.star-container{
+    width: 80%;
+ 
+}
+@media only screen and (max-width: 768px) {
+    .star-btn{
+        width: 90px !important;
+        height: 30px !important;
+        font-size: 8px;
+        margin: 0 !important;
+    }
+  }
+.carousel-bg{
+    height: 100px;
+}
+.star-btn{
+    width: 170px;
+    height: 47px;
+   
+    font-weight: bolder;
+}
+.owl-item > div {
+    cursor: pointer;
+    margin: 6% 15%;
+    transition: margin 0.4s ease;
+    
+  }
+  .owl-item.center > div {
+    cursor: auto;
+    margin: 0;
+  }
+  .owl-item:not(.center) > div:hover {
+    opacity: .75;
+  }

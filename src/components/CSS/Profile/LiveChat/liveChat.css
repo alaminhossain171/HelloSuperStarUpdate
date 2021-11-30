@@ -1,0 +1,101 @@
+.live-card-bg{
+    background-color: #343434;
+    width: 90%;
+    border-radius: 10px;
+}
+.instruct p{
+    font-size: 15px;
+}
+.left-slot, .Right-slot{
+    border-radius: 5px;
+    background-color: #707070;
+}
+.left-slot span, .Right-slot span{
+font-size: 18px;
+font-weight: bold;
+color: white;
+
+}
+.left-slot input{
+    background-color: #343434 !important;
+    color: white !important;
+
+}
+.left-slot input ::after{
+    background-color: #343434 !important;
+    color: white !important;
+    
+}
+.left-slot ::placeholder{
+    color: rgb(255, 196, 0) !important;
+    font-size: 20px;
+}
+.Right-check-slot-btn{
+    border-radius: 5px;
+    font-weight: bold;
+}
+.slot-btn{
+    cursor: pointer;
+    background: transparent linear-gradient(180deg, #E9D306 0%, #FFAD00 100%) 0% 0% no-repeat padding-box;
+    
+}
+
+.congress{
+    color: #FFAD00;
+}
+.cross-liveChat{
+    border-radius: 50%;
+    padding: 0.5em;
+    width: 30px;
+    height: 30px;
+    border: 2px solid blue;
+    color: blue;
+    position: relative;
+   } 
+   .cross-liveChat:hover {
+    border: 2px solid blue;
+    background-color: yellow;
+    color: #ffffff;
+  }
+  .cross-liveChat::before {
+    content: " ";
+    position: absolute;
+    display: block;
+    background-color: blue;
+    width: 2px;
+    left: 12px;
+    top: 5px;
+    bottom: 5px;
+    transform: rotate(45deg);
+  }
+  .cross-liveChat::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    background-color: blue;
+    height: 2px;
+    top:12px;
+    left: 5px;
+    right: 5px;
+    transform: rotate(45deg);
+  }
+  
+/* modal work start here */
+.modal-content {
+   
+      border-radius: 3px;
+      border: 2px solid #FFAD00;
+    
+    }
+   
+/* modal work end here */
+@media only screen and (max-width: 600px) {
+    .instruct p{
+        font-size: 13px;
+    }
+    .left-slot span, .Right-slot span{
+        font-size: 15px;
+    
+        
+        }
+  }

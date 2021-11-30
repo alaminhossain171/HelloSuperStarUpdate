@@ -1,0 +1,152 @@
+.PostImgHome{
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+}
+
+.PostCard{
+    border: none;
+}
+.PostCard img{
+    height:250px;
+}
+
+.Post-small-text{
+    color: white;
+    font-size: 10px !important;
+}
+.Post-small-text-r{
+    color: white;
+    margin-left: 5px;
+    font-size: 10px !important;
+}
+
+.Post-Title-home{
+    color: white;
+   padding-top: 10px;
+    font-size: 13px;
+}
+
+
+.PostBack{
+    background-color: #343434;
+    border: none;
+    margin-bottom: 2px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.PostHoUl{
+    list-style: none;
+}
+
+ .like-post  {
+    display: inline;
+    margin-left: -40px;
+}
+.comment-post {
+    display: inline;
+    float: right;
+    margin-right: 20px;
+}
+.share-post {
+    display: inline;
+    float: right;
+}
+.btn-warning-post{
+    color: #000;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    width: 110px ;
+    height: 30px;
+    border:none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+@media only screen and (max-width: 510px) {
+ 
+    .PostImgHe{
+        height: 230px;
+        width: 90%;
+    }
+        
+    .card {
+        word-wrap: none;
+    }
+    .like-post  {
+        margin-left: -45px;
+    }
+    .btn-warning-post{
+        color: #000;
+        font-size: 13px;
+        background-color: #ffc107;
+        border-color: #ffc107;
+        width: 50px ;
+        height: 30px;
+        border:none;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+  
+  }
+
+  @media only screen and (width: 600px) {
+    .PostImgHe{
+        height: 185px;
+        width: 90%;
+    }
+    .btn-warning-post {
+    color: #000;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    width: 70px ;
+    height: 30px;
+    border: none;
+    text-align: left;
+    }
+  
+  }
+  @media only screen and (max-width: 768px) {
+      .Postbtn-t {
+          width:100%;
+      }
+    .btn-warning-post {
+        color: #000;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    width: 87px;
+    height: 30px;
+    border: none;
+    }
+  
+  }
+  @media only screen and (width:1400px) {
+    .Postbtn-t {
+        width:100%;
+    }
+  .btn-warning-post {
+      color: #000;
+  background-color: #ffc107;
+  border-color: #ffc107;
+  width: 101px !important;
+  height: 30px;
+  border: none;
+  }
+
+}
+
+
+
+

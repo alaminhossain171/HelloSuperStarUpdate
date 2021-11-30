@@ -1,0 +1,69 @@
+.bg-img{
+   background-image: url('../../../images/bg-img.jpeg');
+   background-repeat: no-repeat;
+   background-position:top;
+  background-size: cover;
+}
+.logIm img{
+    width: 350px;
+    height: 337px;
+}
+@media only screen and (max-width: 768px) {
+  .logIm img{
+      width: 100%;
+      height: 100%;
+  }
+
+  }
+
+.logIn-bg {
+    background-color: #343434;
+    
+}
+
+.logIn-header {
+    color: #E7DA5D;
+    border: 1px solid #E7DA5D;
+    
+    width: 40%;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+
+    
+}
+
+.input-style{
+    outline: 0;
+  border-width: 0 0 2px;
+  border-color: #E7DA5D;
+  background-color: #343434;
+  color: #fff;
+}
+.input-style{
+    border-color: #E7DA5D;
+}
+.eye-icons{
+   position: absolute;
+   right: 30%;
+   transform: translate(0,-50%);
+   top: 45%;
+   color: #E7DA5D;
+   font-size: 15px;
+   cursor: pointer;
+}
+.userBtn-font{
+    font-size: 14px;
+}
+.topright {
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    font-size: 15px;
+  }
+::placeholder{
+    color: white;
+    opacity: 0.8;
+    font-size: 15px;
+
+}

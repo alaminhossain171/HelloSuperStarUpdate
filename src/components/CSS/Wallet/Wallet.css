@@ -1,0 +1,75 @@
+.Wallet-container{
+    background-color: #000000;
+    width: 100%;
+    border: none;
+    outline: none;
+  }
+.Wallet-body {
+    background-color: #343434;
+    margin-top: 30px;
+    border: 1px solid #F0E25E;
+    margin-left: 1px;
+}
+
+.Payment-P_text {
+    color: white;
+    margin-left: 18px;
+}
+.Payment-Bold{
+    text-transform: uppercase;
+    color: #F0E25E;
+}
+
+
+.Wallet-b{
+    width: 100%;
+}
+.Wallet-header{
+    background-color:black;
+    height: 100px;
+    padding: 20px;
+    border-bottom: 1px solid rgb(51, 48, 48);
+    border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -ms-border-radius: 10px 10px 0px 0px;
+    -o-border-radius: 10px 10px 0px 0px;
+}
+.Wallet-text{
+    font-size: 30px;
+    font-weight: 600;
+    color: #F0E25E;
+}
+.Payment-header-bottom{
+    color: white;
+    font-size: 13px;
+    padding: 5px;
+    background-color:black;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .Payment-P_text {
+        color: white;
+        margin-left: 1px;
+    }
+    .Wallet-header {
+      background-size: 100% 85% !important;
+      padding: 30px;
+    }
+
+  }
+
+  @media only screen and (min-width: 770px) {
+    .Wallet-header {
+      background-size: 50% 85% !important;
+    }
+  }
+  @media only screen and (min-width: 1100px) {
+    .Wallet-header {
+      background-size: 30% 85% !important;
+    }
+  }

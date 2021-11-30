@@ -1,0 +1,15 @@
+.play-button-container{
+    position: relative;
+    cursor: pointer;
+}
+.play-button-container img{
+    opacity: 0.7;
+}
+.play-center {
+ 
+    position: absolute;
+       top: 50%;  
+       left: 50%; 
+   color: white;
+       transform: translate(-50%, -50%);
+   }

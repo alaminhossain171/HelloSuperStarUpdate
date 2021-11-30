@@ -1,0 +1,60 @@
+.bg-img{
+    background-image: url('../../../images/bg-img.jpeg');
+    background-repeat: no-repeat;
+    background-position:top;
+   background-size: cover;
+ }
+
+
+.form-card-bg{
+    background-color: #343434;
+}
+.sign-up-header{
+    color: #E7DA5D;
+    border: 1px solid #E7DA5D;
+    width: 60%;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px; 
+}
+.sign-up-style{
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #E7DA5D;
+    background-color: #343434;
+    color: #fff;
+    border-radius: 0;
+}
+.sign-up-style:focus{
+    box-shadow: none;
+    color: white;
+    background-color: #343434 !important;
+    border: none !important;
+    outline: none !important;
+    border-bottom: 2px solid #E7DA5D !important;
+
+}
+.sign-up-eye-icon-1{
+    position: absolute;
+   left: 42%;
+   top: 60%;
+    transform: translate(0,-95%);
+    color: #E7DA5D;
+    font-size: 13px;
+    cursor: pointer;
+}
+.sign-up-eye-icon-2{
+    position: absolute;
+right: 5%;
+   top: 60%;
+    transform: translate(0,-95%);
+    color: #E7DA5D;
+    font-size: 13px;
+    cursor: pointer;
+}
+::placeholder{
+    color: white !important;
+    opacity: 0.8 !important;
+    font-size: 13px !important;
+overflow: hidden;
+}

@@ -1,0 +1,41 @@
+.UpcomingLive{
+    background-image: url('../../../images/MashrafeMortaza_smile.jpeg');
+    width: 90%;
+    height: 250px;
+    margin-bottom: 10px;
+    background-position: center;
+    opacity: 1;
+}
+
+.Upc-live{
+    color: #FFAD00;
+    font-size: 25px;
+    margin-top: 40px;
+
+}
+
+.Upc-live-s{
+    color: #FFAD00;
+    font-size: 40px;
+}
+
+.Upc-live-h{
+    color: #FFAD00;
+    font-size: 15px;
+}
+.Upc-live-h-btn{
+    width: 40%;
+    height: 35px;
+    background-color: #FFAD00;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .Upc-live-h-btn{
+        width: 70% ;
+    }
+}

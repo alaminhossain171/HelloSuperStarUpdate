@@ -1,0 +1,82 @@
+.Enroll-Auditions{
+    margin-top: 18px;
+}
+.Enroll-AuditionsB{
+    background-color: #343434;
+}
+.Enroll-text{
+    color: white;
+    margin-right: 10px;
+}
+
+.Enroll-Video{
+    width: 100% !important;
+    height: 200px !important;
+    margin: "0 auto";
+    border-radius: 7px !important;
+    -webkit-border-radius: 7px !important;
+    -moz-border-radius: 7px !important;
+    -ms-border-radius: 7px !important;
+    -o-border-radius: 7px !important;
+}
+
+.Enroll-a{
+    margin-left: 22px;
+}
+
+.Enroll-b{
+    margin-left: 10px;
+}
+
+.Enroll-row{
+    background-color: #1a1919;
+    color:#FFFFFF;
+    padding: .2px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.pxs{
+    margin-bottom: 10px;
+    font-size: 12px !important;
+}
+.Enroll-row-t{
+    padding-left: 14px;
+    font-size: 14px;
+}
+.Enroll-btn button{
+    width: 96%;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: #FFAD00;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .Enroll-AuditionsB{
+        width:135% !important;
+        margin-left: -42px !important;
+    }
+    .Enroll-Video{
+        padding: 10px;
+    }
+    .Enroll-row{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .Enroll-btn{
+        margin-left: 10px;
+    }
+ 
+}

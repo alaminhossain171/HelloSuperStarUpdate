@@ -1,0 +1,84 @@
+.mp-main-scroll
+{
+    max-height: 1000px;
+    overflow-y: scroll;
+}
+.mp-main-scroll::-webkit-scrollbar {
+    width: 3px;
+    background: none;
+  }
+  .mp-main-scroll::-webkit-scrollbar-thumb {
+    background: none; 
+  }
+  .mp-main-scroll::-webkit-scrollbar-thumb:hover {
+    background: #F0E25E; 
+  }
+
+.mt-Scroll-main{
+    height: 150px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #343434;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.mp-div{
+    margin-left: 48px;
+    background-color: #343434;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.scroll-market
+{
+    max-height: 550px;
+    overflow-y: scroll;
+}
+.scroll-market::-webkit-scrollbar {
+    width: 3px;
+    background: none;
+  }
+  .scroll-market::-webkit-scrollbar-thumb {
+    background: none; 
+  }
+  .scroll-market::-webkit-scrollbar-thumb:hover {
+    background: #F0E25E; 
+  }
+.mtp-pic{
+    background-color: black;
+    margin-left: 20px;
+    padding: 10px;
+    height: 185px;
+    margin-top: 15px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.mp-pic{
+    width: 300px;
+    padding: 10px;
+    height: 150px;
+}
+
+
+
+
+
+@media only screen and (max-width: 760px) {
+   
+    .mtp-pic  {
+        margin-left: -45px;
+    }
+    .mp-div{
+
+    }
+  
+  }
